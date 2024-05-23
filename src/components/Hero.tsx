@@ -1,20 +1,10 @@
 //import React from "react";
-import CoverImg from "../assets/hero/hero_cover.jpg";
 import HeroPng from "../assets/hero/hero_png.png";
-
-const bgImage = {
- backgroundImage: `url(${CoverImg})`,
-backgroundSize: "cover",
-backgroundPosition: "center",
-backgroundRepeat: "no-repeat",
- height: "100%",
-width: "100%",
-}; 
 
 const Hero = () => {
   return (
     <>
-      <div style={bgImage} className="relative min-h-[400px] sm:min-h-[500px] md:min-h-[550px] lg:min-h-[600px]"> 
+      <div className="relative min-h-[400px] sm:min-h-[500px] md:min-h-[550px] lg:min-h-[600px]"> 
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black from-50% to-transparent"></div>
         
