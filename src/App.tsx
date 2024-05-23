@@ -13,7 +13,7 @@ const StorePage = lazy(() => import('./pages/StorePage'));
 const SupportPage = lazy(() => import('./pages/SupportPage'));
 const AdminDashboard = lazy(() => import('./admin/AdminDashboard'));
 const LoginPage = lazy(() => import('./pages/LoginPage'));
-const SignUpPage = lazy(() => import('./pages/SignUpPage'));
+const SignUpPage = lazy(() => import('./pages/SignupPage'));
 
 const App: React.FC = () => {
   return (
