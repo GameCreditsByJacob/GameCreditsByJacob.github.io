@@ -4,12 +4,12 @@
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "NodeNext",
+    "module": "ES2022",
     "skipLibCheck": true,
     
 
     /* Bundler mode */
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -24,16 +24,15 @@
     "types": ["vite/client"]
   },
   "exclude": ["node_modules"],
-  //"include": ["src/swiper.d.ts", "vite.config.ts", "src/types/index.d.ts", "src"],
-  "include": ["**/*.ts", "**/*.tsx"],
-  "ts-node": {
-    "transpileOnly": true,
-    "transpiler": "ts-node/transpilers/swc",
-    "files": true,
-    "compilerOptions": {
-      "module": "esnext",
-      "isolatedModules": false
-    }
-  },
+  "include": ["**/*.ts", "**/*.tsx", "vite.config.ts", "/types/index.d.ts", "src", "/types/swiper.d.ts"],
+  // "ts-node": {
+  //   "transpileOnly": true,
+  //   "transpiler": "ts-node/transpilers/swc",
+  //   "files": true,
+  //   "compilerOptions": {
+  //     "module": "esnext",
+  //     "isolatedModules": false
+  //   }
+  // },
   "references": [{ "path": "./tsconfig.node.json" }]
 }
