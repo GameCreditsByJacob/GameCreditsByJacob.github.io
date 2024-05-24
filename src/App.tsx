@@ -2,7 +2,7 @@
 import React, { Suspense, lazy } from 'react';
 import CoverImg from "./assets/hero/hero_cover.jpg";
 import { Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -27,8 +27,10 @@ const bgImage = {
 
 const App: React.FC = () => {
   return (
+    <>
+    
     <div style={bgImage} className="flex">
-      <Sidebar />
+    
       <div className="flex-1 flex flex-col">
         <Navbar />
         <Hero />
@@ -48,6 +50,7 @@ const App: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
