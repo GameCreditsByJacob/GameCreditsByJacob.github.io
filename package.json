@@ -29,7 +29,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node' node src/index.js"
+    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node'"
   },
   "browserslist": {
     "production": [
