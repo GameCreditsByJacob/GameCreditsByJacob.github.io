@@ -1,10 +1,11 @@
+
 import react from '@vitejs/plugin-react';
 
 
 
 export default ({
   root: '.',
-  base: '/GameCreditsByJacob.github.io',
+  base: '/GameCreditsByJacob.github.io/',
   plugins: [react()]
   
 
