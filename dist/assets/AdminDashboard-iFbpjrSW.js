@@ -1,0 +1,1 @@
+import{j as s,L as a}from"./main-BD__G-sc.js";const e=()=>s.jsxs("div",{children:[s.jsx("h1",{className:"text-2xl font-bold mb-4",children:"Admin Dashboard"}),s.jsx("nav",{children:s.jsx("ul",{children:s.jsx("li",{children:s.jsx(a,{to:"/admin/games",children:"Manage Games"})})})})]});export{e as default};
