@@ -17,8 +17,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: npm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.2
         with:
           version: 8.*
-      - run: npm install
-      - run: npm test
+      - run: pnpm install
+      - run: pnpm test
