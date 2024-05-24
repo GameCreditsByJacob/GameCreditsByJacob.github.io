@@ -6,23 +6,23 @@ export default defineConfig({
   root: '.',
   plugins: [react()],
 
-  server: {
-    host: 'localhost',
-    port: 5173,
-    open: true,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:44308', // Replace with your backend URL
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-      },
-    },
-  },
-  build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: '/src/main.tsx',
-    },
-  },
+  // server: {
+  //   host: 'localhost',
+  //   port: 5173,
+  //   open: true,
+  //   proxy: {
+  //     '/api': {
+  //       target: 'http://localhost:44308', // Replace with your backend URL
+  //       changeOrigin: true,
+  //       secure: false,
+  //       rewrite: (path) => path.replace(/^\/api/, ''),
+  //     },
+  //   },
+  // },
+  // build: {
+  //   outDir: 'dist',
+  //   rollupOptions: {
+  //     input: '/src/main.tsx',
+  //   },
+  // },
 });
