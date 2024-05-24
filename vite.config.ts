@@ -8,6 +8,7 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  base: '/GameCreditsByJacob.github.io/',
   server: {
     host: 'localhost',
     port: 5173,
@@ -25,7 +26,7 @@ export default defineConfig({
     outDir: 'dist',
     manifest: true,
     rollupOptions: {
-      input: '/src/main.tsx',
+      input: './src/main.tsx',
     },
   },
 });

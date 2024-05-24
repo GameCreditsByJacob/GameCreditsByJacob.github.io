@@ -16,6 +16,5 @@
     "composite": true,
     "outDir": "./dist"
   },
-  "include": ["vite.config.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["vite.config.ts"]
 }
