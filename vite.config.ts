@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  root: '.',
   plugins: [react()],
   base: '/GameCreditsByJacob.github.io/',
   server: {
@@ -20,10 +21,5 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     manifest: true,
-    rollupOptions: {
-      input: { 
-        main: './src/main.tsx',
-      },
-    },
   },
 });

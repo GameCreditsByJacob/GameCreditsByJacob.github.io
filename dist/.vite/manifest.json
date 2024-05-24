@@ -7,27 +7,10 @@
     "file": "assets/axiosInstance-BLLi8iuW.js",
     "name": "axiosInstance"
   },
-  "src/admin/AdminDashboard.tsx": {
-    "file": "assets/AdminDashboard-iFbpjrSW.js",
-    "name": "AdminDashboard",
-    "src": "src/admin/AdminDashboard.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/main.tsx"
-    ]
-  },
-  "src/assets/hero/hero_cover.jpg": {
-    "file": "assets/hero_cover-e_aEcWE5.jpg",
-    "src": "src/assets/hero/hero_cover.jpg"
-  },
-  "src/assets/hero/hero_png.png": {
-    "file": "assets/hero_png-Db2KGn0Z.png",
-    "src": "src/assets/hero/hero_png.png"
-  },
-  "src/main.tsx": {
-    "file": "assets/main-BD__G-sc.js",
-    "name": "main",
-    "src": "src/main.tsx",
+  "index.html": {
+    "file": "assets/index-nUgKJ1eT.js",
+    "name": "index",
+    "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
       "src/pages/HomePage.tsx",
@@ -40,79 +23,96 @@
       "src/pages/SignupPage.tsx"
     ],
     "css": [
-      "assets/main-BEhuMViA.css"
+      "assets/index-BEhuMViA.css"
     ],
     "assets": [
       "assets/hero_cover-e_aEcWE5.jpg",
       "assets/hero_png-Db2KGn0Z.png"
     ]
   },
+  "src/admin/AdminDashboard.tsx": {
+    "file": "assets/AdminDashboard-CTXPd8cJ.js",
+    "name": "AdminDashboard",
+    "src": "src/admin/AdminDashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/assets/hero/hero_cover.jpg": {
+    "file": "assets/hero_cover-e_aEcWE5.jpg",
+    "src": "src/assets/hero/hero_cover.jpg"
+  },
+  "src/assets/hero/hero_png.png": {
+    "file": "assets/hero_png-Db2KGn0Z.png",
+    "src": "src/assets/hero/hero_png.png"
+  },
   "src/pages/EventsPage.tsx": {
-    "file": "assets/EventsPage-CtVR3bAX.js",
+    "file": "assets/EventsPage-DdQBvajb.js",
     "name": "EventsPage",
     "src": "src/pages/EventsPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx"
+      "index.html"
     ]
   },
   "src/pages/HomePage.tsx": {
-    "file": "assets/HomePage-DNxk5vGx.js",
+    "file": "assets/HomePage-CNgy_Vps.js",
     "name": "HomePage",
     "src": "src/pages/HomePage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx",
+      "index.html",
       "_axiosInstance-BLLi8iuW.js"
     ]
   },
   "src/pages/LoginPage.tsx": {
-    "file": "assets/LoginPage-SOquCWHv.js",
+    "file": "assets/LoginPage-BhJodFqp.js",
     "name": "LoginPage",
     "src": "src/pages/LoginPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx",
+      "index.html",
       "_axiosInstance-BLLi8iuW.js",
       "_authSlice-CgVLuQqs.js"
     ]
   },
   "src/pages/SignupPage.tsx": {
-    "file": "assets/SignupPage-Cmw92GLp.js",
+    "file": "assets/SignupPage-DSnlsxWR.js",
     "name": "SignupPage",
     "src": "src/pages/SignupPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx",
+      "index.html",
       "_axiosInstance-BLLi8iuW.js",
       "_authSlice-CgVLuQqs.js"
     ]
   },
   "src/pages/StorePage.tsx": {
-    "file": "assets/StorePage-ChGbmsnx.js",
+    "file": "assets/StorePage-OIgR_Yzg.js",
     "name": "StorePage",
     "src": "src/pages/StorePage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx"
+      "index.html"
     ]
   },
   "src/pages/SupportPage.tsx": {
-    "file": "assets/SupportPage-BcVWgMVn.js",
+    "file": "assets/SupportPage-DFO6S9IE.js",
     "name": "SupportPage",
     "src": "src/pages/SupportPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx"
+      "index.html"
     ]
   },
   "src/pages/WatchPage.tsx": {
-    "file": "assets/WatchPage-Dd1sT0UK.js",
+    "file": "assets/WatchPage-XhCt5mKK.js",
     "name": "WatchPage",
     "src": "src/pages/WatchPage.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "src/main.tsx"
+      "index.html"
     ]
   }
 }
