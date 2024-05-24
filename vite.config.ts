@@ -3,11 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': '/src',
-    },
-  },
   base: '/GameCreditsByJacob.github.io/',
   server: {
     host: 'localhost',
@@ -26,7 +21,9 @@ export default defineConfig({
     outDir: 'dist',
     manifest: true,
     rollupOptions: {
-      input: './src/main.tsx',
+      input: { 
+        main: './src/main.tsx',
+      },
     },
   },
 });
