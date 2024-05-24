@@ -3,7 +3,7 @@ name: test
 on:
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   test:
