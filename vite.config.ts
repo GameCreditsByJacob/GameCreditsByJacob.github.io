@@ -8,6 +8,7 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  base: '/GameCreditsByJacob.github.io/',
   server: {
     host: 'localhost',
     port: 5173,
