@@ -4,7 +4,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   root: '.',
-  plugins: [react()],
+  base: '/GameCreditsByJacob.github.io',
+  plugins: [react()]
+  
 
   // server: {
   //   host: 'localhost',
