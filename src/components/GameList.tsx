@@ -1,6 +1,6 @@
 import React from 'react';
 import useFetchGames from '../hooks/useFetchGames';
-import GameCard from './GameCard';
+import GameCard from './cards/GameCard.tsx';
 
 const GameList: React.FC = () => {
     const { games, loading, error } = useFetchGames();

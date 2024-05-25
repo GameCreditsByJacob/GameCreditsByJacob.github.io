@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { GameDto } from '../types';
+import { GameDto } from '../../types';
 
 interface GameCardProps {
     game: GameDto;

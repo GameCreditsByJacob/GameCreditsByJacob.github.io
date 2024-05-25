@@ -1,8 +1,14 @@
 // pages/WatchPage.tsx
 import React from 'react';
+import EventContainer from '../components/EventContainer.tsx';
+
 
 const EventsPage: React.FC = () => {
-  return <div>Events Page </div>;
+  return ( 
+  <>
+  <EventContainer />
+  </>
+)
 };
 
 export default EventsPage;

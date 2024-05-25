@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import './Carousel.css'; // Ensure your CSS is imported
+import './css/Carousel.css'; // Ensure your CSS is imported
 
 const Carousel: React.FC = () => {
     return (

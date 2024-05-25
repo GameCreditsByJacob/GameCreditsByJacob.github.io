@@ -25,7 +25,7 @@ const bgImage = {
  backgroundSize: "cover",
  backgroundPosition: "center",
  backgroundRepeat: "no-repeat",
- height: "100%",
+ height: "100vh",
  width: "100%",
  }; 
 
@@ -34,7 +34,7 @@ function App(){
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
+    setLoading(false); // switch to true after developing
     setTimeout(() => {
       setLoading(false);
     }, 8000);
@@ -63,6 +63,7 @@ function App(){
           <Suspense fallback={loading}>
             <Routes>
              {/* will fix this on github, upon reload the thing says it cannot be seen for some reason */}
+             
               <Route path="/" element={<Hero />} />
               <Route path="/home" element={<HomePage />} />
               <Route path="/watch" element={<WatchPage />} />
@@ -72,6 +73,7 @@ function App(){
               <Route path="/login" element={<LoginPage />} />
               <Route path="/signup" element={<SignUpPage />} />
               <Route path="/admin" element={<ProtectedRoute><AdminDashboard /></ProtectedRoute>} />
+              
             </Routes>
             </Suspense>
           </div>
