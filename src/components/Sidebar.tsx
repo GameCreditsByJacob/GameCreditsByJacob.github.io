@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 const Sidebar: React.FC = () => {
 
   const menus = [
+    // will fix this on github, upon reload the thing says it cannot be seen for some reason 
     { name: 'Home', link: '/home', icon: MdOutlineDashboard },
     { name: 'Watch', link: '/watch', icon: MdOutlineLiveTv },
     { name: 'Events', link: '/events', icon: MdOutlineEmojiEvents },

@@ -62,6 +62,7 @@ function App(){
         <div className="flex-row flex flex-grow">
           <Suspense fallback={loading}>
             <Routes>
+             {/* will fix this on github, upon reload the thing says it cannot be seen for some reason */}
               <Route path="/" element={<Hero />} />
               <Route path="/home" element={<HomePage />} />
               <Route path="/watch" element={<WatchPage />} />
