@@ -17,7 +17,7 @@ const Sidebar: React.FC = () => {
   const [open, setOpen] = useState(true);
 
   return (
-    <div className="flex gap-6">
+    <div className=" gap-6 flex">
       <div
         className={`bg-[#0e0e0e] min-h-screen ${
           open ? "w-56" : "w-16"
@@ -33,7 +33,7 @@ const Sidebar: React.FC = () => {
         <div className="mt-4 flex flex-col gap-4 relative">
           {menus?.map((menu, i) => (
             <Link
-              to={menu?.link}
+              to={'GameCreditsByJacob'+menu?.link}
               key={i}
               className={` ${
                 menu?.margin && "mt-5"

@@ -1,11 +1,9 @@
-
 import react from '@vitejs/plugin-react';
 
 
-
-export default ({
+export default({
   root: '.',
-  base: '/GameCreditsByJacob.github.io/',
+  base: '/GameCreditsByJacob/',
   plugins: [react()]
   
 
@@ -27,5 +25,6 @@ export default ({
   //   rollupOptions: {
   //     input: '/src/main.tsx',
   //   },
+  
   // },
 });
