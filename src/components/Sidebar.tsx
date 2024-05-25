@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 const Sidebar: React.FC = () => {
 
   const menus = [
-    { name: 'Home', link: '/', icon: MdOutlineDashboard },
-    { name: 'Watch', link: '/watch', icon: MdOutlineLiveTv },
-    { name: 'Events', link: '/events', icon: MdOutlineEmojiEvents },
-    { name: 'Store', link: '/store', icon: MdOutlineLocalGroceryStore, margin: true },
-    { name: 'Support', link: '/support', icon: MdOutlineSupportAgent },
+    { name: 'Home', link: '/GameCreditsByJacob.github.io/home', icon: MdOutlineDashboard },
+    { name: 'Watch', link: '/GameCreditsByJacob.github.io/watch', icon: MdOutlineLiveTv },
+    { name: 'Events', link: '/GameCreditsByJacob.github.io/events', icon: MdOutlineEmojiEvents },
+    { name: 'Store', link: '/GameCreditsByJacob.github.io/store', icon: MdOutlineLocalGroceryStore, margin: true },
+    { name: 'Support', link: '/GameCreditsByJacob.github.io/support', icon: MdOutlineSupportAgent },
   ];
   
   const [open, setOpen] = useState(true);
@@ -33,7 +33,7 @@ const Sidebar: React.FC = () => {
         <div className="mt-4 flex flex-col gap-4 relative">
           {menus?.map((menu, i) => (
             <Link
-              to={'GameCreditsByJacob'+menu?.link}
+              to={''+menu?.link}
               key={i}
               className={` ${
                 menu?.margin && "mt-5"
