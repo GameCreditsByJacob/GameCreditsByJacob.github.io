@@ -62,15 +62,15 @@ function App(){
         <div className="flex-row flex flex-grow">
           <Suspense fallback={loading}>
             <Routes>
-              <Route path="/GameCreditsByJacob.github.io/" element={<Hero />} />
-              <Route path="/GameCreditsByJacob.github.io/home" element={<HomePage />} />
-              <Route path="/GameCreditsByJacob.github.io/watch" element={<WatchPage />} />
-              <Route path="/GameCreditsByJacob.github.io/events" element={<EventsPage />} />
-              <Route path="/GameCreditsByJacob.github.io/store" element={<StorePage />} />
-              <Route path="/GameCreditsByJacob.github.io/support" element={<SupportPage />} />
-              <Route path="/GameCreditsByJacob.github.io/login" element={<LoginPage />} />
-              <Route path="/GameCreditsByJacob.github.io/signup" element={<SignUpPage />} />
-              <Route path="/GameCreditsByJacob.github.io/admin" element={<ProtectedRoute><AdminDashboard /></ProtectedRoute>} />
+              <Route path="/" element={<Hero />} />
+              <Route path="/home" element={<HomePage />} />
+              <Route path="/watch" element={<WatchPage />} />
+              <Route path="/events" element={<EventsPage />} />
+              <Route path="/store" element={<StorePage />} />
+              <Route path="/support" element={<SupportPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/signup" element={<SignUpPage />} />
+              <Route path="/admin" element={<ProtectedRoute><AdminDashboard /></ProtectedRoute>} />
             </Routes>
             </Suspense>
           </div>

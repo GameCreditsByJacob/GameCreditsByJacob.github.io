@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: '.',
-  base: '/GameCreditsByJacob.github.io/',
+  base: '/',
   plugins: [react()]
   
 
