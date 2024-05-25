@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-[#0e0e0e] p-4 flex justify-between items-center">
-      <Link to="/" className="text-white text-2xl font-bold">MyApp</Link>
+      <Link to="GameCreditsByJacob.github.io/" className="text-white text-2xl font-bold">MyApp</Link>
       <div className="flex items-center space-x-4 flex-grow justify-center">
         <div className="relative text-gray-600 w-full max-w-md">
           <input
