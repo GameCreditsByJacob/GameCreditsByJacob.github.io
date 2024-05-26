@@ -5,12 +5,12 @@ import Iframe from 'react-iframe';
 const LiveEmbed = ({url, title, content}) => {
   return (
     <>
-    <div className='px-10 bg-black/50 rounded-lg text-slate-200 w-fit h-fit m-8'>
+    <div className='px-10 bg-black/50 rounded-lg text-slate-200 h-fit m-8'>
       <div className="text-xl text-bold py-2 text-left">{title}</div>
-      <div className="pb-6">
+      <div className="">
     <Iframe 
   url={url}
-  width="540px"
+  width="440px"
   height="278px"
   display="block"
   title={title}
