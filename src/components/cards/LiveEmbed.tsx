@@ -5,22 +5,21 @@ import Iframe from 'react-iframe';
 const LiveEmbed = ({url, title, content}) => {
   return (
     <>
-    <div className='px-10 bg-black/50 rounded-lg text-slate-200 h-fit m-8'>
+    <div className='px-5 bg-black/50 rounded-lg text-slate-200 h-fit'>
       <div className="text-xl text-bold py-2 text-left">{title}</div>
-      <div className="">
-    <Iframe 
-  url={url}
-  width="440px"
-  height="278px"
-  display="block"
-  title={title}
-  allow="accelerometer"
-  referrerpolicy="strict-origin-when-cross-origin"
-  encrypted-media
-  position="relative"/>
-  </div>
-  <div className="text-l text-left pb-5">{content}</div>
-  </div>
+        <div className="">
+        <Iframe 
+        url={url}
+        display="block"
+        title={title}
+        allow="accelerometer"
+        referrerpolicy="strict-origin-when-cross-origin"
+        className="w-auto h-auto"
+        encrypted-media
+        position="relative"/>
+        </div>
+        <div className="text-l text-left pb-5">{content}</div>
+    </div>
   </>
   )
 };
